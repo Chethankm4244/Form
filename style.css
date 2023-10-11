@@ -1,0 +1,229 @@
+/* $('select').selectpicker(); */
+*{
+    font-family: 'Roboto Slab', serif;
+    /* overflow-x: hidden; */
+}
+.image-container{
+    display: none;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background: linear-gradient(rgb(111, 243, 111),rgb(111, 243, 111));
+}
+.container{
+    width: 40vw;
+    background-color: rgb(247, 252, 252);
+   
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.heading-container{
+    width:34.25vw ;
+    height: 7vh;
+    background-color: rgb(93, 93, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vw;
+    margin-left: 3vw;
+   
+}
+.heading-container p{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+.div-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+label{
+    font-size: 18px;
+    /* font-weight: 550; */
+    margin-left: 3vw;
+}
+.input{
+    width: 34vw;
+    height: 5vh;
+    border-radius: 5px;
+    border:1px solid rgb(173, 172, 172);
+    margin-left: 3vw;
+}
+textarea{
+    width: 34vw;
+    height: 6vh;
+    border-radius: 5px;
+    border:1px solid rgb(173, 172, 172);
+    margin-left: 3vw;
+}
+.checkbox-container{
+    margin-left: 3vw;
+    margin-top: 7px;
+}
+.gender-container{
+    margin-left: 3vw;
+    margin-top: 7px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 3vw;
+}
+.btn{
+    width: 15vw;
+    height: 5vh;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color:rgb(93, 93, 253) ;
+    color: white;
+    border: 1px solid rgb(93, 93, 253);
+    cursor: pointer;
+}
+#image-inputiField{
+   
+    font-size: 16px;
+/*    
+    margin-left: 3vw; */
+}
+#images{
+    width: 5vw;
+    height: 3vw;
+}
+.error{
+    margin-left: 3vw;
+    color: red;
+    padding: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#container1{
+    margin-top: 20px;
+}
+
+#gender-container1{
+    margin-top: 15px;
+}
+#conform-password{
+    margin-top: 10px;
+}
+#job-container{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+#job{
+    height: 20vh;
+}
+
+#multipleSelect{
+    max-width: 100vw;
+    width: 34vw;
+    background-color: white;
+    border-radius: 5px;
+}
+.vscomp-toggle-button{
+    border-radius: 5px;
+    border: 1px solid rgb(86, 85, 85);
+    box-shadow: none;
+}
+.input-container{
+  display: flex;
+  justify-content: space-between;
+  width: 34vw;
+  margin-left: 3vw;
+}
+.image-label{
+    margin-left: 0px;
+}
+.image-container{
+    margin-top: 20px;
+    
+}
+
+
+/* ---------------------------------------------------------- */
+
+
+
+@media screen and (max-width:700px) {
+    .heading-container p{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:600px) {
+    .container{
+        width: 80vw;
+        
+    }
+    .heading-container{
+       margin-left: 0px;
+       width: 70vw;
+    }
+    #myform{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .div-container{
+        margin-left: 0px;
+    }
+    .input,textarea{
+        width: 70vw;
+        margin-left: 0px;
+
+    }
+    label{
+        margin-left: 0px;
+    }
+    #gender-container1{
+       width: 70vw;
+    }
+    #job-container{
+        width: 70vw;
+    }
+    #multipleSelect{
+        width: 70vw;
+    }
+    .gender-container{
+        width: 70vw;
+    }
+    .checkbox-container{
+        width: 70vw;
+    }
+    #skill-container{
+        width: 70vw;
+    }
+    .input-container{
+        width: 70vw;
+        margin-left: 0px;
+    }
+    
+}
+@media screen and (max-width:400px) {
+    .container{
+        width: 100vw;
+        margin: 0;
+    }
+    .heading-container p{
+        font-size: 20px;
+    }
+    label{
+        font-size: 16px;
+    }
+    .btn{
+        font-size: 16px;
+        padding: 5px 15px;
+        width: fit-content;
+    }
+}
